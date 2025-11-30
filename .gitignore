@@ -1,0 +1,73 @@
+# ------------------------
+# Node
+# ------------------------
+node_modules/
+yarn-error.log
+yarn-debug.log*
+.pnp.*
+.pnp.js
+package-lock.json
+
+# ------------------------
+# React Native
+# ------------------------
+ios/build/
+android/build/
+*.keystore
+*.log
+*.orig
+*.xcworkspace
+*.hmap
+Pods/
+DerivedData/
+*.app
+*.db
+
+# ------------------------
+# Turborepo / Packages
+# ------------------------
+# Ignore build outputs and node_modules for core, native-modules, docs
+packages/core/lib/
+packages/core/dist/
+packages/core/node_modules/
+
+packages/native-modules/lib/
+packages/native-modules/dist/
+packages/native-modules/node_modules/
+
+packages/docs/lib/
+packages/docs/dist/
+packages/docs/node_modules/
+
+# Example app: ignore only build outputs and node_modules
+packages/example/node_modules/
+packages/example/android/build/
+packages/example/ios/build/
+
+# Root caches
+.yarn/
+.turbo/
+.cache/
+.npm/
+
+# ------------------------
+# TypeScript
+# ------------------------
+*.tsbuildinfo
+
+# ------------------------
+# IDE / Editors
+# ------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+
+# ------------------------
+# GitHub / CI
+# ------------------------
+.github/
+*.log
+.env
+.env.*

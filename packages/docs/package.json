@@ -1,0 +1,8 @@
+{
+  "name": "docs",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "echo 'Serve docs locally'",
+    "build": "echo 'Build static docs site'"
+  }
+}

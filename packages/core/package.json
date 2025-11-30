@@ -1,0 +1,24 @@
+{
+  "name": "@shadahmad7/core",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "echo \"No tests yet\""
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-native": "^0.73.0",
+    "eslint": "^8.45.0",
+    "react": "^19.2.0",
+    "react-native": "^0.82.1",
+    "typescript": "^5.1.6"
+  }
+}
