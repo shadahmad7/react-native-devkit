@@ -67,7 +67,6 @@ packages/example/ios/build/
 # ------------------------
 # GitHub / CI
 # ------------------------
-.github/
 *.log
 .env
 .env.*
